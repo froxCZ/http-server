@@ -1,0 +1,145 @@
+body {
+
+	min-width: 700px;
+  background-color:grey;
+  background:url('img/bg.png');
+  
+}
+#wrapper{
+  margin:auto;
+  margin-top:-10px;
+  width:660px;
+  min-height:700px;
+  /*background-color:red; */
+}
+
+#header{
+height:127px;
+}
+
+#head{
+position:absolute;
+top:25px;
+width:76px;
+height:107px;
+margin-left:10px;
+background:url('img/head.png');
+}
+#header-text{
+margin-left:120px;
+padding-top:40px;
+}
+
+#menu{
+height:68px;
+
+}
+#menu-border-left{
+background:url('img/menu-border-left.png') no-repeat bottom;
+width:10px;
+height:100%;
+float:left;
+}
+#menu-middle{
+width:640px;
+height:100%;
+float:left;
+background:url('img/menu-middle.png') repeat-x bottom;
+
+}
+#menu-border-right{
+background:url('img/menu-border-right.png')  no-repeat bottom;
+width:10px;
+float:right;
+height:100%;
+}
+
+#content-wrapper{
+min-height:350px;
+}
+
+#content{
+
+margin-left:20px;
+margin-right:20px;
+
+}
+#footer{
+height:25px;
+width:100%;
+}
+#footer-border-left{
+background:url('img/footer-border-left.png') no-repeat;
+height:100%;
+width:7px;
+float:left;
+}
+#footer-middle{
+float:left;
+background:url('img/footer-middle.png') repeat-x bottom;
+height:100%;
+width:646px;
+}
+#footer-border-right{
+float:right;
+width:7px;
+background:url('img/footer-border-right.png') no-repeat;
+height:100%;
+}
+
+.a-menu{
+font-family:"Gill Sans MT",Arial;
+text-decoration:none;
+font-size:20px;
+color:white;
+margin-top: 10px;
+}
+
+.menu-box{
+float:left;
+height:100%;
+text-align:center;
+width:160px;
+
+}
+.menu-box:hover{
+background:url('img/menu-hover.png')  no-repeat center top;
+}
+
+h1{
+  font-family:"Gill Sans MT",Arial;
+  font-size:18px;
+  color:#ffff99; 
+  margin-bottom:0px;
+}
+img.profile,
+img.photo {
+	padding: 2px;
+	border: 2px solid #6a0417;
+	background: #880e25;
+}
+
+img.photo:hover {
+	background: #474848;
+}
+p{
+  margin:3px;
+  font-family:"Gill Sans MT",Arial;
+  color:#cfcfcf;  
+}
+
+ul{
+  margin:0px;
+  margin-top:15px;
+  padding:0px;
+  font-size:18px;
+  font-family:"Gill Sans MT",Arial;
+  color:#cfcfcf;
+}
+li{
+  margin:0px;
+  margin-left:15px;
+  padding:0px;
+  font-family:"Gill Sans MT",Arial;
+  color:#cfcfcf; 
+}
