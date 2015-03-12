@@ -125,8 +125,7 @@ front of que and is assigned timestamp. From time to
 time server goes from the end of a que and deletes timeouted files from memory,
 to prevent server of
 using too much memory space.
-## 
-Logging ##
+## Logging ##
 My server supports several logging levels either to console or to logfile. Log levels, as almost
 everything else, is configurable over config file. It has up to 8 logging levels ranging from logging only
 FATAL errors over NETWORK messages to DEBUG messages.
